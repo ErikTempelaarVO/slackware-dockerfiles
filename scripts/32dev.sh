@@ -10,6 +10,10 @@
 
 # Modify the compilation/linking environment:
 export PATH="/usr/bin/32:/usr/lib/qt/bin:$PATH"
+export PATH="/opt/build-wrapper-linux-x86:${PATH}"
+export PATH="/opt/sonar-scanner/bin:${PATH}"
+export PATH="/opt/sonar-scanner/jre/bin:${PATH}"
+
 export CC="gcc" # This is actually the /usr/bin/32/gcc wrapper
 export CXX="g++"
 export FC="gfortran" # This is actually the /usr/bin/32/gfortran wrapper
