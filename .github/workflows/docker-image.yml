@@ -23,8 +23,6 @@ jobs:
         include:
           - arch: x86_64
             releasename: slackware64
-          - arch: i586
-            releasename: slackware
         # Exlude with_multilib for i586, since that makes no sense
         # Also exclude skip_multilib for x86_64, since multilib is merely a conditional step on top of the template
         exclude:
