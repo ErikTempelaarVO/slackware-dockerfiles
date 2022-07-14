@@ -11,10 +11,10 @@ ARG post_install=script/empty_post_install.sh
 COPY "$post_install" /post_install.sh
 
 # install patched shadow that accepts long groupnames for azure devops compatibility
-RUN bash upgradepkg --install-new shadow-4.2.1-x86_64-1.txz
-RUN bash upgradepkg --install-new slackpkg+-1.7.0-noarch-13mt.txz
-
-RUN chmod -R a+rwx /opt/
+RUN bash upgradepkg --install-new shadow-4.2.1-x86_64-1.txz && \
+    chmod 4755 /bin/su && chmod 4755 /bin/login && \
+    bash upgradepkg --install-new slackpkg+-1.7.0-noarch-13mt.txz && \
+    chmod -R a+rwx /opt/ 
 
 ARG base_image=aclemons/slackware:14.2-x84_64-full
 ARG mirror
