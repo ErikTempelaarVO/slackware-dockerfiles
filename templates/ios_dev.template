@@ -61,6 +61,7 @@ sed
 shadow
 slackpkg
 sqlite
+sudo
 sysfsutils
 tar
 time

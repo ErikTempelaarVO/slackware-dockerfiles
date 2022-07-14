@@ -2,7 +2,7 @@ ARG base_image=aclemons/slackware:14.2-x84_64-full
 # hadolint ignore=DL3006
 FROM $base_image
 
-COPY slackpkgplus/slackpkg+-1.8.0-noarch-6mt.txz /
+COPY packages/slackpkg+-1.8.0-noarch-6mt.txz /
 COPY scripts/install_template.sh /
 COPY templates/ /etc/slackpkg/templates/
 
