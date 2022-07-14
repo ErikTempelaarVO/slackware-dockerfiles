@@ -7,7 +7,7 @@ on:
     branches: [ "master" ]
 
 env:
-  REPO_NAME: ghcr.io/ErikTempelaarVO
+  REPO_NAME: ghcr.io/eriktempelaarvo
   MIRROR_URL: http://localhost:3000/
 
 jobs:
