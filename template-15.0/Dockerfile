@@ -11,6 +11,8 @@ COPY "$post_install" /post_install.sh
 
 RUN bash upgradepkg --install-new slackpkg+-1.8.0-noarch-6mt.txz
 
+RUN chmod -R a+rwx /opt/
+
 ARG base_image=aclemons/slackware:14.2-x84_64-full
 ARG mirror
 ARG template
