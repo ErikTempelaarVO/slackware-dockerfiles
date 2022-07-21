@@ -1,0 +1,6 @@
+libgcrypt
+libgpg-error
+make
+ncurses
+guile
+gc
