@@ -11,5 +11,5 @@ libmpc
 glibc
 kernel-headers
 binutils
-python
+python3
 perl
