@@ -9,8 +9,6 @@ fi
 slackpkg update gpg
 slackpkg update
 
-slackpkg install python3
-
 python3 -m ensurepip
 
 pip3 install conan
