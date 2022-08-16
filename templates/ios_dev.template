@@ -55,7 +55,6 @@ patch
 perl
 pkgtools
 procps-ng
-python
 python3
 rsync
 sed
