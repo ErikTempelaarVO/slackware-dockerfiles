@@ -4,6 +4,7 @@ aaa_terminfo
 bash
 bin
 binutils
+brotli
 bzip2
 cmake
 coreutils
@@ -11,8 +12,8 @@ curl
 cyrus-sasl
 dialog
 diffutils
-elvis
 elogind
+elvis
 etc
 expat
 file
@@ -23,6 +24,7 @@ gc
 gcc
 gcc-g++
 gettext
+git
 glibc
 glibc-profile
 glibc-solibs
@@ -50,6 +52,7 @@ mpfr
 ncurses
 net-tools
 nettle
+nghttpd2
 openssl
 patch
 perl
@@ -74,5 +77,3 @@ which
 xxHash
 xz
 zlib
-nghttpd2
-brotli
